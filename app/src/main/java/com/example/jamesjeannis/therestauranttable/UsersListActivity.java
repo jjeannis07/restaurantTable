@@ -17,7 +17,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-
 public class UsersListActivity extends AppCompatActivity {
 
     private AppCompatActivity activity = UsersListActivity.this;

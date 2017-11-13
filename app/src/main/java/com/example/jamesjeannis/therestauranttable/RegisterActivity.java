@@ -57,17 +57,17 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
      * This method is to initialize views
      */
     private void initViews() {
-        nestedScrollView =  findViewById(R.id.nestedScrollView);
+        nestedScrollView = findViewById(R.id.nestedScrollView);
 
         textInputLayoutName = findViewById(R.id.textInputLayoutName);
-        textInputLayoutEmail =  findViewById(R.id.textInputLayoutEmail);
+        textInputLayoutEmail = findViewById(R.id.textInputLayoutEmail);
         textInputLayoutPassword = findViewById(R.id.textInputLayoutPassword);
         textInputLayoutConfirmPassword = findViewById(R.id.textInputLayoutConfirmPassword);
 
         textInputEditTextName = findViewById(R.id.textInputEditTextName);
-        textInputEditTextEmail =  findViewById(R.id.textInputEditTextEmail);
-        textInputEditTextPassword =  findViewById(R.id.textInputEditTextPassword);
-        textInputEditTextConfirmPassword =  findViewById(R.id.textInputEditTextConfirmPassword);
+        textInputEditTextEmail = findViewById(R.id.textInputEditTextEmail);
+        textInputEditTextPassword = findViewById(R.id.textInputEditTextPassword);
+        textInputEditTextConfirmPassword = findViewById(R.id.textInputEditTextConfirmPassword);
 
         appCompatButtonRegister = findViewById(R.id.appCompatButtonRegister);
 

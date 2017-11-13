@@ -40,7 +40,7 @@ public class UsersRecyclerAdapter extends RecyclerView.Adapter<UsersRecyclerAdap
 
     @Override
     public int getItemCount() {
-        Log.v(UsersRecyclerAdapter.class.getSimpleName(),""+listUsers.size());
+        Log.v(UsersRecyclerAdapter.class.getSimpleName(), "" + listUsers.size());
         return listUsers.size();
     }
 
@@ -56,7 +56,7 @@ public class UsersRecyclerAdapter extends RecyclerView.Adapter<UsersRecyclerAdap
 
         public UserViewHolder(View view) {
             super(view);
-            textViewName =  view.findViewById(R.id.textViewName);
+            textViewName = view.findViewById(R.id.textViewName);
             textViewEmail = view.findViewById(R.id.textViewEmail);
             textViewPassword = view.findViewById(R.id.textViewPassword);
         }
