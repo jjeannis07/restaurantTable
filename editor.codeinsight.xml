@@ -5,15 +5,12 @@
   </component>
   <component name="CodeInsightSettings">
     <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
+    <EXCLUDED_PACKAGE NAME="com.google.android.gms.location.LocationServices.FusedLocationApi" />
   </component>
   <component name="JavaCodeFoldingSettings">
     <option name="collapseConstructorGenericParameters" value="false" />
     <option name="collapseLambdas" value="false" />
     <option name="collapseSuppressWarnings" value="false" />
-    <option name="COLLAPSE_ONE_LINE_METHODS" value="false" />
-    <option name="COLLAPSE_CLOSURES" value="false" />
-    <option name="COLLAPSE_CONSTRUCTOR_GENERIC_PARAMETERS" value="false" />
-    <option name="COLLAPSE_SUPPRESS_WARNINGS" value="false" />
   </component>
   <component name="OCCodeFoldingSettings">
     <option name="collapseBlockExpressions" value="true" />
@@ -22,7 +19,6 @@
     <option name="COLLAPSE_CONDITIONALLY_NOT_COMPILED" value="false" />
   </component>
   <component name="XmlFoldingSettings">
-    <option name="collapseXmlTags" value="true" />
     <option name="COLLAPSE_XML_TAGS" value="true" />
   </component>
 </application>
