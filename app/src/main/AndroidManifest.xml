@@ -36,6 +36,12 @@
         <activity
             android:name=".UsersListActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".Restaurant_Reservation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RestaurantActivity"
+            android:screenOrientation="portrait" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -51,7 +57,7 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-
+        <activity android:name=".BookingHistory"></activity>
     </application>
 
 </manifest>
