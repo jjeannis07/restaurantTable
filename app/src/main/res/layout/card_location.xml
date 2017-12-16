@@ -30,8 +30,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                android:text="762 Higuera St. STE 215, San Luis Obispo, CA 93401"
-                android:textSize="16dp" />
+                android:text="762 Higuera St. STE 215, San Luis Obispo, CA 93401" />
         </LinearLayout>
 
         <ImageView

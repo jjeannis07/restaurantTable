@@ -38,6 +38,7 @@ public class MainFragment extends Fragment implements OnMapReadyCallback {
     private MarkerOptions userMarker;
     private LocationsListFragment mListFragment;
 
+
     public MainFragment() {
         // Required empty public constructor
     }
@@ -73,6 +74,7 @@ public class MainFragment extends Fragment implements OnMapReadyCallback {
                     .commit();
         }
 
+
         final EditText zipText = view.findViewById(R.id.zip_text);
         zipText.setOnKeyListener(new View.OnKeyListener() {
             @Override
@@ -98,7 +100,9 @@ public class MainFragment extends Fragment implements OnMapReadyCallback {
 
         hideList();
         return view;
+
     }
+
 
     /**
      * €
@@ -153,6 +157,7 @@ public class MainFragment extends Fragment implements OnMapReadyCallback {
         }
     }
 
+
     private void hideList() {
         getActivity().getSupportFragmentManager().beginTransaction().hide(mListFragment).commit();
     }
@@ -162,3 +167,4 @@ public class MainFragment extends Fragment implements OnMapReadyCallback {
     }
 
 }
+

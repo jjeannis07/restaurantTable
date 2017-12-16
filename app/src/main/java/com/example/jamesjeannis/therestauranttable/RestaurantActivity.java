@@ -33,7 +33,7 @@ public class RestaurantActivity extends AppCompatActivity {
         btnHistory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntentHist = new Intent(v.getContext(), UsersListActivity.class);
+                Intent myIntentHist = new Intent(v.getContext(), BookingHistory.class);
                 startActivityForResult(myIntentHist, 0);
 
             }

@@ -29,5 +29,6 @@ public class LocationsViewHolder extends RecyclerView.ViewHolder {
         locationTitle.setText(location.getLocationTitle());
         locationAddress.setText(location.getLocationAddress());
     }
+
 }
 

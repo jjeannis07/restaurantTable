@@ -41,4 +41,7 @@ public class LocationsAdapter extends RecyclerView.Adapter<LocationsViewHolder> 
         View card = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_location, parent, false);
         return new LocationsViewHolder(card);
     }
+
 }
+
+
